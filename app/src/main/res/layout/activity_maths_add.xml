@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MathsAdd">
+
+    <EditText
+        android:id="@+id/facNum_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="170138"
+        android:textSize="28dp"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/name_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textSize="28dp"
+        />
+
+
+    <EditText
+        android:id="@+id/course_edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Course"
+        android:inputType="number"
+        android:textSize="28dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/add_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Add new student"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*faculty number's length is 10 and starts with 170138"
+        android:textSize="17dp"
+        />
+
+    <ImageButton
+        android:id="@+id/back_to_list2"
+        android:layout_width="68dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/back_arrow" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Back to the list"
+        android:layout_marginTop="3dp"
+        android:textSize="17dp" />
+
+</LinearLayout>

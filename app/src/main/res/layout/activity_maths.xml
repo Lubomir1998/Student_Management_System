@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Maths">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maths"
+        android:textSize="42dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/subTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="Fac. number"
+        android:textSize="21dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="Name"
+        android:textSize="21dp"
+        android:layout_marginLeft="160dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:text="Course"
+        android:textSize="21dp"
+        android:layout_marginLeft="260dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/subTitle"
+        />
+
+    <ImageButton
+        android:id="@+id/img_btn2"
+        android:layout_width="57dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/recyclerView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:background="@color/white"
+        android:src="@drawable/add_student" />
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_to_subj"
+        android:layout_below="@id/img_btn2"
+        />
+
+</RelativeLayout>
